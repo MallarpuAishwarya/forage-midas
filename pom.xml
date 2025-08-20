@@ -17,6 +17,27 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+  </dependency>
+
+  <!-- JUnit (used only while running tests) -->
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+  </dependency>
+
+  <!-- Spring Boot Web (web server, REST, JSON, etc.) -->
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <!-- version optional if your project has a Spring Boot parent,
+         otherwise specify it explicitly, e.g. 3.2.5 -->
+  </dependency>
 	</dependencies>
 
 	<build>
