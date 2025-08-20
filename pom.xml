@@ -17,6 +17,13 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+  <groupId>GROUP_ID</groupId>
+  <artifactId>ARTIFACT_ID</artifactId>
+  <version>VERSION</version>   
+  <scope>test</scope>          
+</dependency>
+
 	</dependencies>
 
 	<build>
